@@ -22,4 +22,3 @@ bin/
 !*/bin/*.exe
 
 .vscode/
-.abc/
