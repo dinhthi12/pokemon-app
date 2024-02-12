@@ -1,5 +1,7 @@
 #include <iostream>
 
+// Đếm số lượng số chẵn trong mảng
+
 int countEvenNumbers(int array[], int size)
 {
   int count = 0;
