@@ -1,2 +1,0 @@
-Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
-Bài 123: Viết hàm tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số nguyên
