@@ -22,3 +22,15 @@ bin/
 !*/bin/*.exe
 
 .vscode/
+
+# Ignore build directory
+/build/
+
+# Ignore compiled executables
+*.exe
+*.out
+
+# Ignore generated CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
