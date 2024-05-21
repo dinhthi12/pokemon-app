@@ -1,0 +1,3 @@
+/var/www/DSA/build/CMakeFiles/my_project_executable.dir
+/var/www/DSA/build/CMakeFiles/edit_cache.dir
+/var/www/DSA/build/CMakeFiles/rebuild_cache.dir
