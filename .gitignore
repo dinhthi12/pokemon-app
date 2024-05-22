@@ -11,26 +11,14 @@
 
 # Ignore files with extension `.class` & `.exe`
 *.class
-*.exe
-
-# Ignore `bin` dir
-bin/
-# or
-*/bin/*
-
-# Unignore all `.exe` in `bin` dir
-!*/bin/*.exe
-
-.vscode/
 
 # Ignore build directory
 /build/
-
-# Ignore compiled executables
-*.exe
-*.out
 
 # Ignore generated CMake files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+
+# Ignore Visual Studio Code settings directory
+.vscode/
