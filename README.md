@@ -1,4 +1,4 @@
-# Javascript Algorithms
+# Typescript
 
 A collection of algorithms and data structures implemented in JavaScript. This repository includes popular algorithms and data structures used in computer science, along with test cases and explanations.
 

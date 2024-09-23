@@ -1,4 +1,3 @@
-
 import Comparator from '../Comparator';
 
 describe('Comparator', () => {
@@ -24,7 +23,7 @@ describe('Comparator', () => {
   });
 
   it('should compare with custom comparator function', () => {
-    // Sử dụng string làm kiểu dữ liệu cho comparator vì chúng ta so sánh theo độ dài của chuỗi
+    // Use string as data type for comparator because we compare length of string.
     const comparator = new Comparator<string>((a: string, b: string) => {
       if (a.length === b.length) {
         return 0;
