@@ -1,3 +1,5 @@
+import { transform } from 'typescript';
+
 module.exports = {
   // The bail config option can be used here to have Jest stop running tests after
   // the first failure.
@@ -19,7 +21,7 @@ module.exports = {
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
 
   // The pattern Jest uses to detect test files.
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$',
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
 
   // This option sets the URL for the jsdom environment.
   // It is reflected in properties such as location.href.
@@ -36,5 +38,8 @@ module.exports = {
       functions: 100,
       lines: 100,
     },
+  },
+  transform: {
+    '^.+\\.tsx?$': 'ts-jest',
   },
 };
