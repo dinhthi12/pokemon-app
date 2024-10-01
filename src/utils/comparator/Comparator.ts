@@ -46,18 +46,17 @@ export default class Comparator<T extends string | number> {
     return this.compare(a, b) < 0;
   }
 
-
   /**
    * Checks if variable "a" is greater than "b".
    * @param {*} a
    * @param {*} b
    * @return {boolean}
    */
-  greaterThan(a: T, b: T):boolean {
-    return this.compare (a, b) > 0;
+  greaterThan(a: T, b: T): boolean {
+    return this.compare(a, b) > 0;
   }
 
-/**
+  /**
    * Checks if variable "a" is less than or equal to "b".
    * @param {*} a
    * @param {*} b
