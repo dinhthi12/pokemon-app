@@ -16,25 +16,36 @@ A collection of algorithms and data structures implemented in JavaScript. This r
 ## Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/dinhthi12/Javascript-algo.git
+   git clone https://github.com/dinhthi12/project.git
+
+   ```
 
 2. Navigate into the directory:
-      ```bash
-   cd Javascript-algo
+
+   ```bash
+   cd project
+
+   ```
 
 3. Install dependencies using Yarn:
    ```bash
    yarn install
+   ```
 4. Usage <br>
    <br>
-    You can run specific algorithms or data structure files by navigating to the desired folder and running the script with Node.js. For example, to run the Bubble Sort algorithm:
+   You can run specific algorithms or data structure files by navigating to the desired folder and running the script with Node.js. For example, to run the Bubble Sort algorithm:
+
    ```bash
     node src/algorithms/sorting/bubbleSort.js
 
+   ```
+
 5. Testing <br>
    <br>
-This repository uses Jest for testing. To run the test cases:
+   This repository uses Jest for testing. To run the test cases:
 
    ```bash
      yarn run test
+   ```
